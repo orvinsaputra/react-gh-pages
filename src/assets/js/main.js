@@ -1,4 +1,4 @@
-import ScrollReveal from 'scrollreveal';
+
 
 export default function initialize() {
 	const doc = document.documentElement;

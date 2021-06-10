@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { setupScrollReveal } from '../../assets/js/main.js';
 
 import RenderUIForm from '../forms/RenderUIForm';
 
