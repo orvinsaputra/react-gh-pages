@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
-import RenderUIForm from '../forms/RenderUIForm';
+import Form from '../main/Form';
+// import RenderUIForm from '../forms/RenderUIForm';
 
 class Hero extends Component {
 	componentDidMount() {
@@ -8,7 +8,7 @@ class Hero extends Component {
 	}
 
 	render() {
-		const { title, content, illustration: Illustration } = this.props;
+		const { title, content} = this.props;
 
 		return (
 			<section className="hero">
@@ -21,12 +21,7 @@ class Hero extends Component {
 								</h1>
 								<p className="hero-paragraph is-revealing">{content}</p>
 							</div>
-
-							<RenderUIForm className="hero-form" submit="Submit" />
-						</div>
-
-						<div className="hero-illustration">
-							<Illustration />
+							<Form/>
 						</div>
 					</div>
 				</div>
